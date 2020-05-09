@@ -51,13 +51,14 @@ function App() {
               </div>
               <div className="col-sm-4" style={{textAlign:'center'}}>
                 <img src={bell} alt="" id="bimg"/>
-                <a href="https://bellweerin.github.io"><h3>Bell Weerin</h3></a>
+                <Link to='/bell/page1'><a><h3>Bell Weerin</h3></a></Link>
+                {/* <a href="https://bellweerin.github.io"><h3>Bell Weerin</h3></a> */}
                 <h4 style={{marginBottom: '60px'}}>6110406228</h4>
         
               </div>
               <div className="col-sm-4 mem" style={{textAlign:'center'}}>
                 <img src={fit} alt="" id="fimg"/>
-                <Link to='/page1'><a><h3>Fit Phitchayatida</h3></a></Link>
+                <Link to='/fit/page1'><a><h3>Fit Phitchayatida</h3></a></Link>
                 {/* <a href="./week1.html"><h3>Fit Phitchayatida</h3></a> */}
                 <h4 style={{marginBottom: '60px'}}>6110406147</h4>
                 {/* <h4></h4> */}
