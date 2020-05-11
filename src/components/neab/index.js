@@ -1,7 +1,7 @@
 import React from 'react'
-import '../../css/neab/profile.css';
+import '../../css/neab/week1.css';
 import { Link } from 'react-router-dom';
-export default function profile() {
+export default function index() {
     return (
         <div> 
             <header class="header">
@@ -10,10 +10,8 @@ export default function profile() {
 	            </div>
 	        <div class="text-box">
 		        <h1 class="heading-primary">
-			        <span class="heading-primary-main">Mr.Waroon Suppakit</span>
-			        <span class="heading-primary-sub">My nickname is Neab</span>
-                    <span class="heading-primary-sub">Strength : Patience</span>
-                    <span class="heading-primary-sub">ID : 6110451398</span>
+                    <span class="heading-primary-main">PRE DEV CAMP</span>
+			        <span class="heading-primary-sub">2020</span>
 		        </h1>
                 <a href="/neab/week1" class="btn btn-white btn-animated">WEEK1</a>
                 <a href="/neab/week2" class="btn btn-white btn-animated">WEEK2</a>
