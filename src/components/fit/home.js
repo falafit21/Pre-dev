@@ -46,7 +46,7 @@ function App() {
             <div className="row">
               <div className="col-sm-4 " style={{textAlign:'center'}}>
                 <img src={pneab} alt="" id="nimg"/>
-                <a href='/neab/page1'><h3>Neab Waroon</h3></a>
+                <a href='/neab/profile'><h3>Neab Waroon</h3></a>
                 <h4 style={{marginBottom: '60px'}}>6110451398</h4>
               </div>
               <div className="col-sm-4" style={{textAlign:'center'}}>
