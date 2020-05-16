@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/neab/week1.css';
+import '../../css/neab/mainStyle.css';
 import { Link } from 'react-router-dom';
 export default function index() {
     return (
@@ -18,6 +18,7 @@ export default function index() {
                 <a href="/neab/week3" class="btn btn-white btn-animated">WEEK3</a>
                 <a href="/neab/week4" class="btn btn-white btn-animated">WEEK4</a>
                 <a href="/neab/week5" class="btn btn-white btn-animated">WEEK5</a>
+                <a href="/neab/week6" class="btn btn-white btn-animated">WEEK6</a>
 	        </div>
             </header>
         </div>

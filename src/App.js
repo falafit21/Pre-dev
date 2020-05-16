@@ -10,6 +10,7 @@ import neabWeek2 from './components/neab/week2'
 import neabWeek3 from './components/neab/week3'
 import neabWeek4 from './components/neab/week4'
 import neabWeek5 from './components/neab/week5'
+import neabWeek6 from './components/neab/week6'
 
 import './css/App.css';
 
@@ -26,6 +27,7 @@ function App() {
       <Route path="/neab/week3" component = {neabWeek3}/>
       <Route path="/neab/week4" component = {neabWeek4}/>
       <Route path="/neab/week5" component = {neabWeek5}/>
+      <Route path="/neab/week6" component = {neabWeek6}/>
 
     </BrowserRouter>  
   );

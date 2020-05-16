@@ -10,7 +10,7 @@ export default function index() {
 	            </div>
 	        <div class="text-box">
 		        <h1 class="heading-primary">
-                    <span class="heading-primary-main">week5</span>
+                    <span class="heading-primary-main">week6</span>
 		        </h1>
                 <a href="/neab/week1" class="btn btn-white btn-animated">WEEK1</a>
                 <a href="/neab/week2" class="btn btn-white btn-animated">WEEK2</a>
