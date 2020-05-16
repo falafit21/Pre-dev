@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../css/neab/week1.css';
+import profile from '../../assets/pneab.jpg';
 import { Link } from 'react-router-dom';
+
 export default function index() {
     return (
         <div> 
@@ -9,6 +11,7 @@ export default function index() {
 		            <Link to="/neab/index" ><span class="brand">Home</span></Link>
 	            </div>
 	        <div class="text-box">
+                <img src={profile} alt="" style={{height: '35%',width: '35%'}}/>
 		        <h1 class="heading-primary">
 			        <span class="heading-primary-main">Mr.Waroon Suppakit</span>
 			        <span class="heading-primary-sub">My nickname is Neab</span>
