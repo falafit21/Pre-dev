@@ -3,7 +3,7 @@ import '../../css/neab/mainStyle.css';
 import profile from '../../assets/pneab.jpg';
 import { Link } from 'react-router-dom';
 
-export default function index() {
+export default function Week1() {
     return (
         <div> 
             <header class="header">

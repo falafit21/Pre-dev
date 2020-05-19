@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../css/neab/mainStyle.css';
 import { Link } from 'react-router-dom';
-export default function index() {
+export default function Week3() {
     return (
         <div> 
             <header class="header">
